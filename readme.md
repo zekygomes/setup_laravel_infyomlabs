@@ -27,6 +27,17 @@ Necessita estar instalado:
 8. php artisan migrate --seed
 9. configurar o hosts para homestead.test
 
+## Comandos príncipais do InfyLobs
+
+Comando para gerar scaffold generico:
+- php artisan infyom:scaffold $MODEL_NAME --datatables=true
+
+Comando para gerar scaffold atráves de arquivo json:
+- php artisan infyom:scaffold $MODEL_NAME --fieldsFile=filename_from_model_schema_directory_OR_path_from_base_directory_OR_absolute_file_path --datatables=true
+
+Para mais informações acesse a documentação:
+- http://labs.infyom.com/laravelgenerator/docs/5.6/introduction
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
