@@ -64,8 +64,7 @@ class PessoaDataTable extends DataTable
     protected function getColumns()
     {
         return [
-            'nome',
-            'age'
+            'name'
         ];
     }
 

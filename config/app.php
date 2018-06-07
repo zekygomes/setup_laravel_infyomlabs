@@ -230,9 +230,6 @@ return [
         'Html'      => Collective\Html\HtmlFacade::class,
         'Flash'     => Laracasts\Flash\Flash::class,
         'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
-        'role' => \Zizaco\Entrust\Middleware\EntrustRole::class,
-        'permission' => \Zizaco\Entrust\Middleware\EntrustPermission::class,
-        'ability' => \Zizaco\Entrust\Middleware\EntrustAbility::class,
     ],
 
 ];
