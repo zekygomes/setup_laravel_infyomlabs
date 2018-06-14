@@ -48,10 +48,10 @@ class ExampleDataTable extends DataTable
                 'order'   => [[0, 'desc']],
                 'buttons' => [
                     'create',
-                    'export',
-                    'print',
-                    'reset',
-                    'reload',
+//                    'export',
+//                    'print',
+//                    'reset',
+//                    'reload',
                 ],
             ]);
     }
