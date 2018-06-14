@@ -3,8 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-
-
+        teste
     </div>
 </div>
 @endsection
