@@ -26,4 +26,3 @@ Route::resource('users', 'UserController');
 
 
 
-Route::resource('examples', 'ExampleController');
