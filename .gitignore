@@ -12,3 +12,4 @@ npm-debug.log
 yarn-error.log
 .env
 .sudo_as_admin_successful
+.bash_aliases
