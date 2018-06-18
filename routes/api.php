@@ -22,8 +22,6 @@ Route::middleware('auth:api')->group(function (){
     // rota de logout....
     Route::delete('oauth/token','ApiLoginController@logoutApi');
 
-
-
 });
 
 Route::get('teste', function () {
