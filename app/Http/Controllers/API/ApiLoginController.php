@@ -12,7 +12,9 @@ class ApiLoginController extends Controller
         if (Auth::check()) {
             Auth::user()->AauthAcessToken()->delete();
 
-            return response('logout realizado com sucesso', 200);
+            return response([
+                'message' => 'logout realizado com sucesso!'
+            ],200);
         }
     }
 }
