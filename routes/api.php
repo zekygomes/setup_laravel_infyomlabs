@@ -17,6 +17,15 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/teste', function () {
+Route::middleware('auth:api')->group(function (){
+
+    // rota de logout....
+    Route::delete('oauth/token','ApiLoginController@logoutApi');
+
+
+
+});
+
+Route::get('teste', function () {
     return response('teste', 200);
 })->middleware('auth:api');
